@@ -1,0 +1,2 @@
+{"event":"Test run started","timestamp":"2024-12-13T22:28:59.181Z","workers":8,"testFiles":0}
+{"event":"Test run finished","timestamp":"2024-12-13T22:28:59.191Z","status":"failed","duration":32925.838}

@@ -1,0 +1,38 @@
+{"event":"Test run started","timestamp":"2024-12-13T22:33:18.899Z","workers":8,"testFiles":2}
+{"event":"Test started","timestamp":"2024-12-13T22:33:19.795Z","title":"should register a new user","location":{"file":"c:\\Users\\melvi\\Coding Projects\\automationteststore\\tests\\auth\\registration.spec.ts","line":5,"column":5}}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.798Z","title":"Before Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.806Z","title":"fixture: browser","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.809Z","title":"browserType.launch","category":"pw:api"}
+{"event":"Test started","timestamp":"2024-12-13T22:33:19.826Z","title":"should register a new user","location":{"file":"c:\\Users\\melvi\\Coding Projects\\automationteststore\\tests\\auth\\registration.spec.ts","line":5,"column":5}}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.829Z","title":"Before Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.836Z","title":"fixture: browser","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:19.838Z","title":"browserType.launch","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.072Z","title":"browserType.launch","category":"pw:api","duration":233}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.072Z","title":"fixture: browser","category":"fixture","duration":235}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.072Z","title":"browserType.launch","category":"pw:api","duration":264}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.072Z","title":"fixture: browser","category":"fixture","duration":267}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.072Z","title":"fixture: context","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.073Z","title":"fixture: context","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.075Z","title":"fixture: context","category":"fixture","duration":2}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.075Z","title":"fixture: context","category":"fixture","duration":1}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.075Z","title":"Before Hooks","category":"hook","duration":246}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.075Z","title":"Before Hooks","category":"hook","duration":278}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.075Z","title":"After Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.075Z","title":"After Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.076Z","title":"fixture: context","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.076Z","title":"fixture: context","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.076Z","title":"fixture: context","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.077Z","title":"fixture: context","category":"fixture","duration":0}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.078Z","title":"After Hooks","category":"hook","duration":2}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.078Z","title":"Worker Cleanup","category":"hook"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:20.078Z","title":"After Hooks","category":"hook","duration":3}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.078Z","title":"Worker Cleanup","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.078Z","title":"fixture: browser","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:33:20.079Z","title":"fixture: browser","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:21.326Z","title":"fixture: browser","category":"fixture","duration":1247}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:21.326Z","title":"Worker Cleanup","category":"hook","duration":1248}
+{"event":"Test finished","timestamp":"2024-12-13T22:33:21.328Z","title":"should register a new user","status":"failed","duration":8,"error":"Error: Error reading storage state from ./playwright/.auth/user.json:\nENOENT: no such file or directory, open 'c:\\Users\\melvi\\Coding Projects\\automationteststore\\playwright\\.auth\\user.json'","retry":0}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:21.328Z","title":"fixture: browser","category":"fixture","duration":1249}
+{"event":"Step finished","timestamp":"2024-12-13T22:33:21.329Z","title":"Worker Cleanup","category":"hook","duration":1249}
+{"event":"Test finished","timestamp":"2024-12-13T22:33:21.329Z","title":"should register a new user","status":"failed","duration":8,"error":"Error: Error reading storage state from ./storageState.json:\nENOENT: no such file or directory, open 'c:\\Users\\melvi\\Coding Projects\\automationteststore\\storageState.json'","retry":0}
+{"event":"Test run finished","timestamp":"2024-12-13T22:33:21.353Z","status":"failed","duration":2691.2329999999997}

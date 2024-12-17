@@ -1,0 +1,86 @@
+{"event":"Test run started","timestamp":"2024-12-13T22:24:35.854Z","workers":8,"testFiles":1}
+{"event":"Test started","timestamp":"2024-12-13T22:24:36.722Z","title":"should register a new user","location":{"file":"c:\\Users\\melvi\\Coding Projects\\automationteststore\\tests\\auth\\registration.spec.ts","line":5,"column":5}}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.725Z","title":"Before Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.731Z","title":"fixture: browser","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.733Z","title":"browserType.launch","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:36.927Z","title":"browserType.launch","category":"pw:api","duration":194}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:36.928Z","title":"fixture: browser","category":"fixture","duration":196}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.929Z","title":"fixture: context","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.932Z","title":"browser.newContext","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:36.965Z","title":"browser.newContext","category":"pw:api","duration":33}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:36.970Z","title":"fixture: context","category":"fixture","duration":42}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.970Z","title":"fixture: page","category":"fixture"}
+{"event":"Step started","timestamp":"2024-12-13T22:24:36.971Z","title":"browserContext.newPage","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.082Z","title":"browserContext.newPage","category":"pw:api","duration":111}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.082Z","title":"fixture: page","category":"fixture","duration":112}
+{"event":"Step started","timestamp":"2024-12-13T22:24:37.082Z","title":"fixture: homePage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.083Z","title":"fixture: homePage","category":"fixture","duration":1}
+{"event":"Step started","timestamp":"2024-12-13T22:24:37.084Z","title":"fixture: loginPage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.084Z","title":"fixture: loginPage","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:24:37.084Z","title":"fixture: registrationPage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.085Z","title":"fixture: registrationPage","category":"fixture","duration":1}
+{"event":"Step started","timestamp":"2024-12-13T22:24:37.085Z","title":"fixture: testLogger","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.085Z","title":"fixture: testLogger","category":"fixture","duration":0}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:37.085Z","title":"Before Hooks","category":"hook","duration":360}
+{"event":"Step started","timestamp":"2024-12-13T22:24:37.092Z","title":"page.goto(https://automationteststore.com/)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:41.437Z","title":"page.goto(https://automationteststore.com/)","category":"pw:api","duration":4345}
+{"event":"Step started","timestamp":"2024-12-13T22:24:41.439Z","title":"page.waitForLoadState","category":"pw:api"}
+{"event":"Step started","timestamp":"2024-12-13T22:24:41.440Z","title":"page.waitForLoadState","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:24:41.440Z","title":"page.waitForLoadState","category":"pw:api","duration":0}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:01.795Z","title":"page.waitForLoadState","category":"pw:api","duration":20356}
+{"event":"Step started","timestamp":"2024-12-13T22:25:01.798Z","title":"locator.getByRole('link', { name: 'Login or register' }).click","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:02.761Z","title":"locator.getByRole('link', { name: 'Login or register' }).click","category":"pw:api","duration":963}
+{"event":"Step started","timestamp":"2024-12-13T22:25:02.764Z","title":"expect.toBeVisible","category":"expect"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:02.784Z","title":"expect.toBeVisible","category":"expect","duration":21}
+{"event":"Step started","timestamp":"2024-12-13T22:25:02.785Z","title":"locator.getByRole('button', { name: ' Continue' }).click","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.688Z","title":"locator.getByRole('button', { name: ' Continue' }).click","category":"pw:api","duration":903}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.690Z","title":"expect.toBeVisible","category":"expect"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.714Z","title":"expect.toBeVisible","category":"expect","duration":24}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.714Z","title":"locator.fill(#AccountFrm_firstname)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.738Z","title":"locator.fill(#AccountFrm_firstname)","category":"pw:api","duration":24}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.740Z","title":"locator.fill(#AccountFrm_lastname)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.760Z","title":"locator.fill(#AccountFrm_lastname)","category":"pw:api","duration":20}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.761Z","title":"locator.fill(#AccountFrm_email)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.780Z","title":"locator.fill(#AccountFrm_email)","category":"pw:api","duration":19}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.781Z","title":"locator.fill(#AccountFrm_telephone)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.798Z","title":"locator.fill(#AccountFrm_telephone)","category":"pw:api","duration":17}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.799Z","title":"locator.fill(#AccountFrm_company)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.821Z","title":"locator.fill(#AccountFrm_company)","category":"pw:api","duration":22}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.822Z","title":"locator.fill(#AccountFrm_address_1)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.840Z","title":"locator.fill(#AccountFrm_address_1)","category":"pw:api","duration":18}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.842Z","title":"locator.fill(#AccountFrm_city)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.861Z","title":"locator.fill(#AccountFrm_city)","category":"pw:api","duration":20}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.862Z","title":"locator.selectOption(#AccountFrm_country_id)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:03.880Z","title":"locator.selectOption(#AccountFrm_country_id)","category":"pw:api","duration":18}
+{"event":"Step started","timestamp":"2024-12-13T22:25:03.881Z","title":"page.waitForTimeout","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:04.893Z","title":"page.waitForTimeout","category":"pw:api","duration":1012}
+{"event":"Step started","timestamp":"2024-12-13T22:25:04.894Z","title":"locator.selectOption(#AccountFrm_zone_id)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:04.941Z","title":"locator.selectOption(#AccountFrm_zone_id)","category":"pw:api","duration":47}
+{"event":"Step started","timestamp":"2024-12-13T22:25:04.942Z","title":"locator.fill(#AccountFrm_postcode)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:04.974Z","title":"locator.fill(#AccountFrm_postcode)","category":"pw:api","duration":32}
+{"event":"Step started","timestamp":"2024-12-13T22:25:04.974Z","title":"locator.fill(#AccountFrm_loginname)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:04.997Z","title":"locator.fill(#AccountFrm_loginname)","category":"pw:api","duration":23}
+{"event":"Step started","timestamp":"2024-12-13T22:25:04.998Z","title":"locator.fill(#AccountFrm_password)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:05.017Z","title":"locator.fill(#AccountFrm_password)","category":"pw:api","duration":19}
+{"event":"Step started","timestamp":"2024-12-13T22:25:05.017Z","title":"locator.fill(#AccountFrm_confirm)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:05.036Z","title":"locator.fill(#AccountFrm_confirm)","category":"pw:api","duration":19}
+{"event":"Step started","timestamp":"2024-12-13T22:25:05.037Z","title":"locator.check(#AccountFrm_agree)","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:05.100Z","title":"locator.check(#AccountFrm_agree)","category":"pw:api","duration":63}
+{"event":"Step started","timestamp":"2024-12-13T22:25:05.101Z","title":"locator.getByRole('button', { name: 'Continue' }).click","category":"pw:api"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.081Z","title":"locator.getByRole('button', { name: 'Continue' }).click","category":"pw:api","duration":980}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.082Z","title":"After Hooks","category":"hook"}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.083Z","title":"fixture: testLogger","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.083Z","title":"fixture: testLogger","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: registrationPage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: registrationPage","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: loginPage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: loginPage","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: homePage","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.084Z","title":"fixture: homePage","category":"fixture","duration":0}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.085Z","title":"fixture: page","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.085Z","title":"fixture: page","category":"fixture","duration":1}
+{"event":"Step started","timestamp":"2024-12-13T22:25:06.085Z","title":"fixture: context","category":"fixture"}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.085Z","title":"fixture: context","category":"fixture","duration":0}
+{"event":"Step finished","timestamp":"2024-12-13T22:25:06.739Z","title":"After Hooks","category":"hook","duration":657}
+{"event":"Test finished","timestamp":"2024-12-13T22:25:06.741Z","title":"should register a new user","status":"passed","duration":29809,"retry":0}
+{"event":"Test run finished","timestamp":"2024-12-13T22:25:07.136Z","status":"passed","duration":34569.829000000005}
